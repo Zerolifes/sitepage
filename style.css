@@ -1,0 +1,151 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Pacifico;
+    font-size: 20px;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+#frame-layout
+{
+    width: calc(100vw - 30vh);
+    height: 80vh;
+    position: fixed;
+    top: 10vh;
+    left: 15vh;
+}
+#order
+{
+    position: absolute;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    background-image: url(image/BG.png);
+    border-radius: 10px;
+}
+
+#order .title 
+{
+    position: absolute;
+    font-size: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3%
+}
+
+
+#form
+{
+    position: absolute;
+    top: 7%;
+    padding: 20px;
+}
+
+#contact
+{
+    position: absolute;
+    bottom: 5%;
+    padding: 20px;
+}
+
+#note-frame-layout
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    /* background-color: white; */
+    position: absolute;
+}
+#pin-layout
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: gray;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 99;
+}
+.frame-page
+{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: 25px 25px;
+    transition: transform 2s, opacity 2s;
+}
+.frame-page img
+{
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+}
+.decp
+{
+    position: absolute;
+    width: 45%;
+    height: auto;
+    right: 1%;
+    /* border: 1px black solid; */
+    top: 18%;
+}
+#next-button
+{
+    display: flex;
+    height: 100vh;
+    width: 15vh;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    right: 0px;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+}
+#prev-button
+{
+    display: flex;
+    height: 100vh;
+    width: 15vh;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+}
+.hello
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300px;
+}
+.sub-title
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+.layout-content
+{
+    position: absolute;
+}
+.content
+{
+    font-size: 18px;
+}
+.demo
+{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    right: 35vh;
+}

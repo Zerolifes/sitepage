@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ẩm thực Việt Nam</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+<div id="next-button" onclick="nextPage()">next</div>
+<div id="prev-button" onclick="prevPage()">prev</div>
+<div id="frame-layout">
+    <div id="note-frame-layout">
+        <div id="order">
+            <div class="title">Liên hệ đặt bàn</div>
+            <form id="form">
+                <div class="info">Thông tin khách hàng</div>
+                <label for="name">Tên khách hàng</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="phone">Số điện thoại</label>
+                <input type="number" id="phone" name="phone"><br>
+                <label for="time">Thời gian</label><br>
+                <input type="date" id="time" name="time"><br>
+                <label for="detail">Ghi chú</label><br>
+                <textarea id="detail" name="detail"></textarea><br>
+                <button type="submit">Gửi</button>
+            </form> 
+            <div id="contact"> 
+                <div>Địa chỉ: 54 Nguyễn Lương Bằng, Đà Nẵng</div>
+            </div> 
+        </div>
+
+        <div id="pin-layout"></div>
+        <div class="frame-page" style="z-index: 6;">
+            <img src="image/img0.png">
+        </div>
+        <div class="frame-page" style="z-index: 5;">
+            <img src="image/img1.png">
+        </div>
+        <div class="frame-page" style="z-index: 4;">
+            <img src="image/img2.png">
+        </div>
+        <div class="frame-page" style="z-index: 3;">
+            <img src="image/img3.png">
+        </div>
+        <div class="frame-page" style="z-index: 2;">
+            <img src="image/img4.png">
+        </div>
+        <div class="frame-page" style="z-index: 1;">
+            <img src="image/img5.png">
+        </div>
+        <div class="frame-page" style="z-index: 0;">
+            <img src="image/img6.png">
+        </div>
+    </div>
+</div>
+</body>
+</html>
